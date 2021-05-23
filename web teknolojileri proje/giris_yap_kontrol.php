@@ -40,7 +40,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="ilgialanlarim.html">ilgi_alanlarım</a>
+            <a class="nav-link" href="ilgi_alani.htm">ilgi_alanlarım</a>
           </li>
 
           <li class="nav-item">
@@ -72,7 +72,7 @@
                 include("kayitlilar.php");
 
 
-                if (($_POST["Email1"] == $user) and ($_POST["Password1"] == $pass))
+                if (($_POST["email"] == $user) and ($_POST["password"] == $pass))
                 {
                 $_SESSION["login"] = "true";
                 $_SESSION["user"] = $user;
